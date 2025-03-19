@@ -16,6 +16,7 @@ Keep in mind that this config was created on [Fedora Linux](https://fedoraprojec
 - [waybar](https://github.com/Alexays/Waybar)
 - [hyprpaper](https://wiki.hyprland.org/Hypr-Ecosystem/hyprpaper/)
 - [hyprlock](https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/)
+- [pavucontrol](https://gitlab.freedesktop.org/pulseaudio/pavucontrol)
 
 ## Setup
 
@@ -34,3 +35,4 @@ log out and start an hyprland session !
 Some functionality / packages are missing from this:
 
 - Polkit Agent
+- Script to easily setup config
