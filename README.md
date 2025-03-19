@@ -2,7 +2,7 @@
 
 This repo contains my hyprland config. I want it to be as portable as possible. 
 
-Keep in mind that this config was created on [Fedora Linux]() so it has the best chance to work on this distro
+Keep in mind that this config was created on [Fedora Linux](https://fedoraproject.org/) so it has the best chance to work on this distro
 
 ## Dependencies
 
@@ -12,6 +12,10 @@ Keep in mind that this config was created on [Fedora Linux]() so it has the best
 - [pipewire](https://pipewire.org/)
 - [xdg-desktop-portal-hyprland](https://github.com/hyprwm/xdg-desktop-portal-hyprland)
 - qt5-wayland, qt6-wayland
+- [wofi](https://hg.sr.ht/~scoopta/wofi)
+- [waybar](https://github.com/Alexays/Waybar)
+- [hyprpaper](https://wiki.hyprland.org/Hypr-Ecosystem/hyprpaper/)
+- [hyprlock](https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/)
 
 ## Setup
 
