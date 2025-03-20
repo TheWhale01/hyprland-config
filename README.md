@@ -12,7 +12,7 @@ Keep in mind that this config was created on [Fedora Linux](https://fedoraprojec
 - [pipewire](https://pipewire.org/)
 - [xdg-desktop-portal-hyprland](https://github.com/hyprwm/xdg-desktop-portal-hyprland)
 - qt5-wayland, qt6-wayland
-- [wofi](https://hg.sr.ht/~scoopta/wofi)
+- [rofi](https://github.com/lbonn/rofi)
 - [waybar](https://github.com/Alexays/Waybar)
 - [hyprpaper](https://wiki.hyprland.org/Hypr-Ecosystem/hyprpaper/)
 - [hyprlock](https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/)
