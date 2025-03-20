@@ -17,6 +17,7 @@ Keep in mind that this config was created on [Fedora Linux](https://fedoraprojec
 - [hyprpaper](https://wiki.hyprland.org/Hypr-Ecosystem/hyprpaper/)
 - [hyprlock](https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/)
 - [pavucontrol](https://gitlab.freedesktop.org/pulseaudio/pavucontrol)
+- [hyprshot](https://github.com/Gustash/Hyprshot)
 
 ## Setup
 
