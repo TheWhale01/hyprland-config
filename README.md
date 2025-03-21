@@ -44,6 +44,5 @@ Some functionality / packages are missing from this:
 
 - Polkit Agent
 - Script to easily setup config
-- dunst styling
 - gtk / kde applications styling
 - improving `install.sh` so that it replaces the paths automatically
