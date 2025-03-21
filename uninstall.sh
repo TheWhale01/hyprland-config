@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apps=("waybar" "kitty" "rofi")
+apps=("waybar" "kitty" "rofi" "dunst")
 
 for app in ${apps[@]}; do
 	rm -rf "$HOME/.config/${app}"
