@@ -270,7 +270,7 @@
     "pulseaudio#microphone": {
         "format": "{format_source}",
         "rotate": 0,
-        "format-source": "",
+        "format-source": "",
         "format-source-muted": "",
         "on-click": "pavucontrol -t 4",
         "on-click-middle": "volumecontrol.sh -i m",
@@ -341,9 +341,9 @@
 		"tooltip": true,
 		"tooltip-format": "Power profile: {profile}",
 		"format-icons": {
-		    "performance": "⚡",
-		    "balanced": "🔋",
-		    "power-saver": "🌱"
+		    "performance": " ",
+		    "balanced": " ",
+		    "power-saver": " "
 		}
 	},
     

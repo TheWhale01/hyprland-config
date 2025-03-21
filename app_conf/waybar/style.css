@@ -92,6 +92,7 @@ tooltip {
     min-height: 10px
 }
 
+#power-profiles-daemon,
 #backlight,
 #battery,
 #bluetooth,
