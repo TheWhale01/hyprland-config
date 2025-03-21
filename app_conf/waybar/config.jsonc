@@ -95,7 +95,7 @@
         },
     
         "custom/cpuinfo": {
-            "exec": "./scripts/cpuinfo.sh",
+            "exec": "/home/whale/.config/waybar/scripts/cpuinfo.sh",
             "return-type": "json",
             "format": "{}",
             "rotate": 0,
@@ -105,18 +105,18 @@
         },
     
         "custom/gpuinfo": {
-            "exec": " ./scripts/gpuinfo.sh",
+            "exec": "/home/whale/.config/waybar/scripts/gpuinfo.sh",
             "return-type": "json",
             "format": "{}",
             "rotate": 0,
             "interval": 5, // once every 5 seconds
             "tooltip": true,
             "max-length": 1000,
-            "on-click": "./scripts/gpuinfo.sh --toggle"
+            "on-click": "/home/whale/.config/waybar/scripts/gpuinfo.sh --toggle"
         },
     
         "custom/gpuinfo#nvidia": {
-            "exec": " ./scripts/gpuinfo.sh --use nvidia ",
+            "exec": " /home/whale/.config/waybar/scripts/gpuinfo.sh --use nvidia",
             "return-type": "json",
             "format": "{}",
             "rotate": 0,
@@ -126,7 +126,7 @@
         },
     
         "custom/gpuinfo#amd": {
-            "exec": " ./scripts/gpuinfo.sh --use amd ",
+            "exec": " /home/whale/.config/waybar/scripts/gpuinfo.sh --use amd ",
             "return-type": "json",
             "format": "{}",
             "rotate": 0,
@@ -136,7 +136,7 @@
         },
     
         "custom/gpuinfo#intel": {
-            "exec": " ./scripts/gpuinfo.sh --use intel ",
+            "exec": " /home/whale/.config/waybar/scripts/gpuinfo.sh --use intel ",
             "return-type": "json",
             "format": "{}",
             "rotate": 0,
@@ -227,8 +227,8 @@
             "format": "{icon} {percent}%",
             "format-icons": ["", "", "", "", "", "", "", "", ""],
             "tooltip-format": "{icon} {percent}% ",
-            "on-scroll-up": "./scripts/brightnesscontrol.sh i 1",
-            "on-scroll-down": "./scripts/brightnesscontrol.sh d 1",
+            "on-scroll-up": "/home/whale/.config/waybar/scripts/brightnesscontrol.sh i 1",
+            "on-scroll-down": "/home/whale/.config/waybar/scripts/brightnesscontrol.sh d 1",
             "min-length": 6
         },
     
@@ -250,10 +250,10 @@
         "rotate": 0,
         "format-muted": "婢",
         "on-click": "pavucontrol -t 3",
-        "on-click-right": "./scripts/volumecontrol.sh -s ''",
-        "on-click-middle": "./scripts/volumecontrol.sh -o m",
-        "on-scroll-up": "./scripts/volumecontrol.sh -o i",
-        "on-scroll-down": "./scripts/volumecontrol.sh -o d",
+        "on-click-right": "/home/whale/.config/waybar/scripts/volumecontrol.sh -s ''",
+        "on-click-middle": "/home/whale/.config/waybar/scripts/volumecontrol.sh -o m",
+        "on-scroll-up": "/home/whale/.config/waybar/scripts/volumecontrol.sh -o i",
+        "on-scroll-down": "/home/whale/.config/waybar/scripts/volumecontrol.sh -o d",
         "tooltip-format": "{icon} {desc} // {volume}%",
         "scroll-step": 5,
         "format-icons": {
@@ -273,9 +273,9 @@
         "format-source": "",
         "format-source-muted": "",
         "on-click": "pavucontrol -t 4",
-        "on-click-middle": "./scripts/volumecontrol.sh -i m",
-        "on-scroll-up": "./scripts/volumecontrol.sh -i i",
-        "on-scroll-down": "./scripts/volumecontrol.sh -i d",
+        "on-click-middle": "volumecontrol.sh -i m",
+        "on-scroll-up": "volumecontrol.sh -i i",
+        "on-scroll-down": "volumecontrol.sh -i d",
         "tooltip-format": "{format_source} {source_desc} // {source_volume}%",
         "scroll-step": 5
     },
@@ -396,8 +396,8 @@
             "format": "{}",
             "rotate": 0,
             "exec": "echo ; echo  logout",
-            "on-click": "./scripts/logoutlaunch.sh 2",
-            "on-click-right": "./scripts/logoutlaunch.sh 1",
+            "on-click": "/home/whale/.config/waybar/scripts/logoutlaunch.sh 2",
+            "on-click-right": "/home/whale/.config/waybar/scripts/logoutlaunch.sh 1",
             "interval" : 86400, // once every day
             "tooltip": true
         },
