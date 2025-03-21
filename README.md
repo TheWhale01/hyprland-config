@@ -43,5 +43,4 @@ log out and start an hyprland session !
 Some functionality / packages are missing from this:
 
 - Polkit Agent
-- Script to easily setup config
 - gtk / kde applications styling
