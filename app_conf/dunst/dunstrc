@@ -99,7 +99,7 @@ new_icon = skype
 # ------------------------------------------------------------------------------
 [global]
 
-font = Cantarell 8
+font = CaskaydiaCove NF 10
 dmenu = /usr/local/bin/rofi -config notification -dmenu -p dunst:
 
 

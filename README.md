@@ -45,4 +45,3 @@ Some functionality / packages are missing from this:
 - Polkit Agent
 - Script to easily setup config
 - gtk / kde applications styling
-- improving `install.sh` so that it replaces the paths automatically
