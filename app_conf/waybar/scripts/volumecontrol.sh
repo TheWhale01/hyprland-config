@@ -3,7 +3,7 @@
 # Source global control script
 scrDir=$(dirname "$(realpath "$0")")
 # shellcheck disable=SC1091
-source "$scrDir/globalcontrol.sh"
+# source "$scrDir/globalcontrol.sh"
 confDir=${confDir:-$XDG_CONFIG_HOME}
 
 # Check if SwayOSD is installed

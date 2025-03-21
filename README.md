@@ -19,6 +19,7 @@ Keep in mind that this config was created on [Fedora Linux](https://fedoraprojec
 - [pavucontrol](https://gitlab.freedesktop.org/pulseaudio/pavucontrol)
 - [hyprshot](https://github.com/Gustash/Hyprshot)
 - [lm-sensors](https://github.com/lm-sensors/lm-sensors)
+- [pamixer](https://github.com/cdemoulins/pamixer)
 
 ## Setup
 
