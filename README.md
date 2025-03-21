@@ -20,6 +20,8 @@ Keep in mind that this config was created on [Fedora Linux](https://fedoraprojec
 - [hyprshot](https://github.com/Gustash/Hyprshot)
 - [lm-sensors](https://github.com/lm-sensors/lm-sensors)
 - [pamixer](https://github.com/cdemoulins/pamixer)
+- [network-manager-applet](https://gitlab.gnome.org/GNOME/network-manager-applet)
+- blueman-applet
 
 ## Setup
 
