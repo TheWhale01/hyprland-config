@@ -24,7 +24,7 @@
 		"custom/gpuinfo",
 		"custom/r_end",
 		"custom/l_end",
-//		"idle_inhibitor",
+		"idle_inhibitor",
 		"clock",
 		"custom/r_end",
 		"custom/padd"
@@ -145,16 +145,17 @@
             "max-length": 1000
         },
     
-        // "idle_inhibitor": {
-        //     "format": "{icon}",
-        //     "rotate": 0,
-        //     "format-icons": {
-        //         "activated": "󰅶 ",
-        //         "deactivated": "󰛊 "
-        //     },
-        //     "tooltip-format-activated":"Caffeine Mode Active",
-        //     "tooltip-format-deactivated":"Caffeine Mode Inactive"
-        // },
+        "idle_inhibitor": {
+            "format": "{icon}",
+            "rotate": 0,
+            "format-icons": {
+                "activated": "󰅶 ",
+                "deactivated": "󰛊 "
+            },
+            "tooltip-format-activated":"Caffeine Mode Active",
+            "tooltip-format-deactivated":"Caffeine Mode Inactive"
+        },
+
         "clock": {
             "format": "{:%I:%M %p}",
             "rotate": 0,
@@ -194,7 +195,7 @@
         },
     
         "hyprland/window": {
-            "format": "  {}",
+            "format": "   {}",
             "rotate": 0,
             "separate-outputs": true,
             "rewrite": {

@@ -262,12 +262,12 @@ general_query() { # Function to get temperature from 'sensors'
 
   # gpu_load=$()
   # core_clock=$()
-  for file in /sys/class/power_supply/BAT*/power_now; do
-    [[ -f "${file}" ]] && power_discharge=$(awk '{print $1*10^-6 ""}' "${file}") && break
-  done
-  [[ -z "${power_discharge}" ]] && for file in /sys/class/power_supply/BAT*/current_now; do
-    [[ -e "${file}" ]] && power_discharge=$(awk -v current="$(cat "${file}")" -v voltage="$(cat "${file/current_now/voltage_now}")" 'BEGIN {print (current * voltage) / 10^12 ""}') && break
-  done
+  # for file in /sys/class/power_supply/BAT*/power_now; do
+  #   [[ -f "${file}" ]] && power_discharge=$(awk '{print $1*10^-6 ""}' "${file}") && break
+  # done
+  # [[ -z "${power_discharge}" ]] && for file in /sys/class/power_supply/BAT*/current_now; do
+  #   [[ -e "${file}" ]] && power_discharge=$(awk -v current="$(cat "${file}")" -v voltage="$(cat "${file/current_now/voltage_now}")" 'BEGIN {print (current * voltage) / 10^12 ""}') && break
+  # done
   # power_limit=$()
   # Get CPU stat
   get_utilization() {
