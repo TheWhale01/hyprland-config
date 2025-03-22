@@ -23,6 +23,8 @@ Keep in mind that this config was created on [Fedora Linux](https://fedoraprojec
 - [pamixer](https://github.com/cdemoulins/pamixer)
 - [network-manager-applet](https://gitlab.gnome.org/GNOME/network-manager-applet)
 - blueman-applet
+- [wlogout](https://github.com/ArtsyMacaw/wlogout)
+- [hypridle](https://github.com/hyprwm/hypridle)
 
 ## Setup
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apps=("waybar" "kitty" "rofi" "dunst")
+apps=("waybar" "kitty" "rofi" "dunst" "wlogout")
 
 for app in ${apps[@]}; do
 	path="$HOME/.config/hypr/app_config/${app}"
