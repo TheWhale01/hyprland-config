@@ -273,9 +273,9 @@
         "format-source": "",
         "format-source-muted": "",
         "on-click": "pavucontrol -t 4",
-        "on-click-middle": "volumecontrol.sh -i m",
-        "on-scroll-up": "volumecontrol.sh -i i",
-        "on-scroll-down": "volumecontrol.sh -i d",
+        "on-click-middle": "/home/whale/.config/waybar/script/volumecontrol.sh -i m",
+        "on-scroll-up": "/home/whale/.config/waybar/script/volumecontrol.sh -i i",
+        "on-scroll-down": "/home/whale/.config/waybar/script/volumecontrol.sh -i d",
         "tooltip-format": "{format_source} {source_desc} // {source_volume}%",
         "scroll-step": 5
     },
@@ -347,16 +347,13 @@
 		}
 	},
     
-        // "custom/wallchange": {
-        //     "format": "{}",
-        //     "rotate": 0,
-        //     "exec": "echo ; echo 󰆊 switch wallpaper",
-        //     "on-click": "swwwallpaper.sh -n",
-        //     "on-click-right": "swwwallpaper.sh -p",
-        //     "on-click-middle": "sleep 0.1 && swwwallselect.sh",
-        //     "interval" : 86400, // once every day
-        //     "tooltip": true
-        // },
+        "custom/wallchange": {
+            "format": "{}",
+            "rotate": 0,
+            "on-click": ". /home/whale/.config/waybar/scripts/change_wallpaper.sh",
+	    "tooltip": true,
+	    "tooltip-format": "Change wallpaper"
+        },
     
         // "custom/theme": {
         //     "format": "{}",
