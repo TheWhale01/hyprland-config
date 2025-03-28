@@ -10,10 +10,22 @@ for wallpaper in ${WALLPAPER_DIR}/*; do
 	wallpapers+=("${wallpaper}")
 done
 
+write_hyprlock_config() {
+	echo "
+background {
+	monitor =
+	path = $1
+	blur_passes = 2
+}
+	" > ${HYPR_DIR}/hyprlock/background.conf
+}
+
 write_hyprpaper_config() {
 	echo "Changing wallpaper for $1"
 	echo "preload = $1" > ${HYPR_DIR}/hyprpaper.conf
 	echo "wallpaper = , $1" >> ${HYPR_DIR}/hyprpaper.conf
+	write_hyprlock_config "$1"
+	ln -s "$1" "${HYPR_DIR}/assets/wall.sqre"
 	hyprctl hyprpaper reload ,"$1"
 }
 
