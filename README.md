@@ -25,6 +25,8 @@ Keep in mind that this config was created on [Fedora Linux](https://fedoraprojec
 - blueman-applet
 - [wlogout](https://github.com/ArtsyMacaw/wlogout)
 - [hypridle](https://github.com/hyprwm/hypridle)
+- gsettings
+- sudo
 
 ## Setup
 
