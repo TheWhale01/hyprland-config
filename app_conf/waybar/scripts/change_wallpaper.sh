@@ -25,7 +25,7 @@ write_hyprpaper_config() {
 	echo "preload = $1" > ${HYPR_DIR}/hyprpaper.conf
 	echo "wallpaper = , $1" >> ${HYPR_DIR}/hyprpaper.conf
 	write_hyprlock_config "$1"
-	ln -s "$1" "${HYPR_DIR}/assets/wall.sqre"
+	ln -sf "$1" "${HYPR_DIR}/assets/wall.sqre"
 	hyprctl hyprpaper reload ,"$1"
 }
 
