@@ -14,8 +14,11 @@ for app in ${apps[@]}; do
 	echo "${app} installed"
 done
 
-sudo ln -s $HOME/.config/hypr/themes/Catppuccin-Mocha /usr/share/themes
-sudo ln -s $HOME/.config/hypr/icons/Tela-circle-dracula /usr/share/icons
+mkdir -p $HOME/.themes $HOME/.icons
+sudo cp -r $HOME/.config/hypr/themes/Catppuccin-Mocha /usr/share/themes
+sudo cp -r $HOME/.config/hypr/icons/Tela-circle-dracula /usr/share/icons
+cp -r $HOME/.config/hypr/themes/Catppuccin-Mocha $HOME/.themes
+cp -r $HOME/.config/hypr/icons/Tela-circle-dracula $HOME/.icons
 
 gsettings set org.gnome.desktop.interface gtk-theme 'Catppuccin-Mocha'
 gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-dracula'

@@ -9,5 +9,7 @@ done
 
 sudo rm -rf /usr/share/themes/Catppuccin-Mocha
 sudo rm -rf /usr/share/icons/Tela-circle-dracula
+rm -rf ~/.themes
+rm -rf ~/.icons
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Adwaita-dark'
