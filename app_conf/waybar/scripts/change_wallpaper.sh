@@ -25,8 +25,8 @@ write_hyprpaper_config() {
 	echo "preload = $1" > ${HYPR_DIR}/hyprpaper.conf
 	echo "wallpaper = , $1" >> ${HYPR_DIR}/hyprpaper.conf
 	write_hyprlock_config "$1"
-	ln -sf "$1" "${HYPR_DIR}/assets/wall.sqre"
 	hyprctl hyprpaper reload ,"$1"
+	python3 ${HYPR_DIR}/app_conf/waybar/scripts/crop.py "$1"
 }
 
 # Check if last wallpaper is selected or if none is loaded

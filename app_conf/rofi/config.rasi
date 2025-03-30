@@ -59,7 +59,7 @@ inputbar {
     padding:                     0em;
     children:                    [ "entry" ];
     background-color:            transparent;
-    background-image:            url("~/.config/hypr/assets/wall.sqre", height);
+    background-image:            url("~/.config/hypr/assets/wall.sqre.jpg", height);
     border-radius:               1em;
 }
 
