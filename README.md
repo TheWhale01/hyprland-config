@@ -27,6 +27,7 @@ Keep in mind that this config was created on [Fedora Linux](https://fedoraprojec
 - [hypridle](https://github.com/hyprwm/hypridle)
 - gsettings
 - sudo
+- [sddm](https://github.com/sddm/sddm)
 
 ## Setup
 

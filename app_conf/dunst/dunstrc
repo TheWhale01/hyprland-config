@@ -1,9 +1,8 @@
 [global]
-corner_radius = 10
-icon_corner_radius = 10
-dmenu = /usr/local/bin/rofi -config notification -dmenu -p dunst:
-icon_theme = "Tela-circle-dracula,Wallbash-Icon,Tela-circle-black,Tela-circle-purple,Tela-circle-blue,Tela-circle-green,Nordzy,Tela-circle-yellow,Tela-circle-grey,Gruvbox-Plus-Dark,Tela-circle-dracula,Tela-circle-pink,WhiteSur,besgnulinux-mono-red,Tela-circle-nord"
-
+	corner_radius = 10
+	icon_corner_radius = 10
+	icon_theme = "Tela-circle-dracula,Wallbash-Icon,Tela-circle-black,Tela-circle-purple,Tela-circle-blue,Tela-circle-green,Nordzy,Tela-circle-yellow,Tela-circle-grey,Gruvbox-Plus-Dark,Tela-circle-dracula,Tela-circle-pink,WhiteSur,besgnulinux-mono-red,Tela-circle-nord"
+	frame_color = "#cba6f7ff"
 
 # [Type-1]
 # appname = "t1"
@@ -110,7 +109,6 @@ dmenu = /usr/local/bin/rofi -config notification -dmenu -p dunst:
 [urgency_low]
     background = "#11111be6"
     foreground = "#CCDDFFE6"
-    frame_color = "#cba6f7ff"
     icon = "/home/khing/.local/share/icons/Wallbash-Icon/hyprdots.svg"
     timeout = 5
 

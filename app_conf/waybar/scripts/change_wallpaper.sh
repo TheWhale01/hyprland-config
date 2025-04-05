@@ -26,12 +26,17 @@ write_hyprpaper_config() {
 	echo "wallpaper = , $1" >> ${HYPR_DIR}/hyprpaper.conf
 	write_hyprlock_config "$1"
 	hyprctl hyprpaper reload ,"$1"
+}
+
+change_wallpaper() {
+	write_hyprpaper_config "$1"
 	python3 ${HYPR_DIR}/app_conf/waybar/scripts/crop.py "$1"
+	cp "$1" "/usr/share/sddm/themes/eucalyptus-drop/Backgrounds/background.jpg"
 }
 
 # Check if last wallpaper is selected or if none is loaded
 if [ "${CURRENT_WALLPAPER}" == "${wallpapers[-1]}" ] || [ "${CURRENT_WALLPAPER}" == "no wallpapers loaded" ]; then
-	write_hyprpaper_config "${wallpapers[0]}"
+	change_wallpaper "${wallpapers[0]}"
 	exit $?
 fi
 
@@ -44,4 +49,4 @@ while [[ $i -lt ${#wallpapers[@]} ]]; do
 	((i+=1))
 done
 ((i+=1))
-write_hyprpaper_config "${wallpapers[$i]}"
+change_wallpaper "${wallpapers[$i]}"
