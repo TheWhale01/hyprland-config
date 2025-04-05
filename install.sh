@@ -15,6 +15,8 @@ for app in ${apps[@]}; do
 done
 
 tar -xvf $HOME/.config/hypr/wallpapers.tar.gz -C $HOME/.config/hypr
+tar -xvf $HOME/.config/hypr/themes.tar.gz -C $HOME/.config/hypr
+tar -xvf $HOME/.config/hypr/icons.tar.gz -C $HOME/.config/hypr
 
 mkdir -p $HOME/.themes $HOME/.icons
 sudo cp -r $HOME/.config/hypr/themes/Catppuccin-Mocha /usr/share/themes

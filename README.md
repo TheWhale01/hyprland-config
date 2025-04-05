@@ -48,4 +48,3 @@ log out and start an hyprland session !
 Some functionality / packages are missing from this:
 
 - Polkit Agent
-- Desktop Manager
